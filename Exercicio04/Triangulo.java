@@ -4,9 +4,9 @@ package exercicio.pkg04;
 
 
 public class Triangulo {
-    private int area;
-    private int altura;
-    private int base;
+    private double area;
+    private double altura;
+    private double base;
     private Scanner s;
     
    public Triangulo(){
@@ -19,9 +19,9 @@ public class Triangulo {
         s = new Scanner(System.in);
         System.out.println("\nInforme a altura do triangulo");
         //coleta de altura e base para o calculo
-        altura = s.nextInt();
+        altura = s.nextDouble();
         System.out.println("\nInforme o valor da base do triangulo");
-        base = s.nextInt();
+        base = s.nextDouble();
     }
     
     public void calcularT(){
