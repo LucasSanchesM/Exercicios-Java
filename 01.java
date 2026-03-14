@@ -42,5 +42,5 @@ public class Exercicio01 {
         novoSalario.atualizar();
         novoSalario.imprimir();
     }
-    
+   
 }
