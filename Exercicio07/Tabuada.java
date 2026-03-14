@@ -24,16 +24,16 @@ public class Tabuada {
 		}
 	}
 	public void exibirTabuada(){
-		System.out.printf("\n**Tabuda do %d**\n", n);
 		for(int i=1; i<=n;  i++){
-      //exibicao de tabuada, o loop maior servira como multiplicando, 
-      //ele atualizara ate o valor de n
+			System.out.printf("\n**Tabuda do %d**\n", n);
+            //exibicao de tabuada, o loop maior servira como multiplicando, 
+            //ele atualizara ate o valor de n
 			for(int e=1;e<=10; e++){			
-        //o loop menor é o multiplicador, ele que de fato fara o processo 
-        //(levando em conta o valor do loop maior), indo no máximo até 10
+                //o loop menor é o multiplicador, ele que de fato fara o processo 
+                //(levando em conta o valor do loop maior), indo no máximo até 10
 				System.out.printf("\n%dx%d=%d", i, e, e*i);
 			}
-      //pular linha para organização entre valores de i
+           //pular linha para organização entre valores de i
 			System.out.printf("\n");
 		}
 	}
