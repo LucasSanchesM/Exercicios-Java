@@ -25,7 +25,7 @@ public class Tabuada {
 	}
 	public void exibirTabuada(){
 		for(int i=1; i<=n;  i++){
-			System.out.printf("\n**Tabuda do %d**\n", n);
+			System.out.printf("\n**Tabuda do %d**\n", i);
             //exibicao de tabuada, o loop maior servira como multiplicando, 
             //ele atualizara ate o valor de n
 			for(int e=1;e<=10; e++){			
