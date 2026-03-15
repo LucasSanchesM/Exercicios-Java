@@ -1,6 +1,5 @@
 /*
-
-
+4. Faça um programa que calcule e mostre a área de um triângulo. Area = (base * altura) / 2. 
 */
 
 import java.util.Scanner;
