@@ -14,7 +14,7 @@ public class Numeros {
 		}
 		
 	public void entrada(){
-		//colega dos 10 numeros inseridos pelo usuario utilizando um loop
+		//coleta dos 10 numeros inseridos pelo usuario utilizando um loop
 		s = new Scanner(System.in);
 		System.out.println("\nInsira 10 numeros");
 		for(int i=0; i<10; i++){
