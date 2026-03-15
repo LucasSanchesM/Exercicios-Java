@@ -1,10 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        Salario novoSalario= new Salario();
-        novoSalario.entrada();
-        novoSalario.classificar();
-        novoSalario.imprimir();
+        Jogador jogador = new Jogador();
+        jogador.entrada();
+        jogador.classificar();
+        jogador.imprimir();
     }
-   
 }
